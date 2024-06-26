@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+
+	<title>System.AFA</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+	<div class="contenedor1">
+		<img class="logo" src="img/logo.png" alt="logo">
+		<img class="logo_usuario" src="img/logo_usuario.png" alt="logo_usuario">
+		<p class="nombre_usuario">JUAN CARLOS SAAVEDRA SERRATO</p>
+		<h2 class="titulo">System.AFA *ATENCION Y AGENDAMIENTO FALLAS TECNICAS*</h2>
+		<img class="cinta" src="img/cinta.png" alt="cinta">
+</div>
+<div class="contenedor2">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="tabbable" id="tabs-968934">
+						<ul class="nav nav-tabs">
+							<li class="nav-item">
+								<a class="nav-link" href="#tab1" data-toggle="tab">ADMINISTRACIÓN DATOS CLIENTE</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#tab2" data-toggle="tab">GESTION FALLAS TECNICAS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#tab3" data-toggle="tab">ADMINISTRADOR DE SOLUCIONES FALLAS TÉCNICAS</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#tab4" data-toggle="tab">GENERAR REPORTES DE LA OPERACIÓN</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#tab5" data-toggle="tab">CREACIÓN DE USUARIOS</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+
+							<!-- /* ADMINISTRACION DATOS CLIENTE   */ -->
+
+							<div class="tab-pane active" id="tab1">
+
+								<img class="lupa" src="img/lupa.png" alt="logo">
+
+								<div class="cajas"> 
+								
+									<input class="Id_Cliente" type="text" name="Id_Cliente" placeholder="Id_Cliente">
+									<input class="Nombre" type="text" name="Nombre" placeholder="Nombre">
+									<input class="Tipo_Servicio" type="text" name="Tipo_Servicio" placeholder="Tipo_Servicio">
+									<input class="Telefono" type="tel" name="Telefono" placeholder="Telefono">
+									<input class="Direcccion" type="text" name="Direcccion" placeholder="Direcccion">
+									<input class="Serie_dispositivo" type="text" name="Serie_dispositivo" placeholder="Serie_dispositivo">
+									<input class="Correo" type="email" name="Correo" placeholder="Correo">
+								</div>
+								
+
+								
+								<div class="btn-group" role="group">
+							 
+									<button class="btn-secondary" type="button">
+										BUSCAR
+									</button> 
+									<button class="btn-secondary" type="button">
+										ACTUALIZAR
+									</button> 
+									<button class="btn-secondary" type="button">
+										LIMPIAR
+									</button>
+									<button class="btn-secondary" type="button">
+										GUARDAR
+									</button> 
+								</div>
+							</div>
+							
+							<!-- /* GESTION FALLAS TECNICAS   */ -->
+
+							<div class="tab-pane" id="tab2">
+
+									<div class="cajas"> 
+										<input class="Id_Cliente2" type="text" name="Id_Cliente" placeholder="Id_Cliente">
+										<input class="Id_Usuario" type="text" name="Id_Usuario" placeholder="Id_Usuario">
+										<input class="Estado" type="text" name="Estado" placeholder="Estado">
+										<input class="Grupo" type="text" name="Grupo" placeholder="Grupo">
+										<input class="Id_Falla" type="text" name="Id_Falla" placeholder="Id_Falla">
+										<input class="Fecha_Ingreso" type="date" name="Fecha_Ingreso" placeholder="Fecha_Ingreso">
+										<input class="Tipo_Falla" type="text" name="Tipo_Falla" placeholder="Tipo_Falla">
+										<textarea class="Observacion"  name="" id="">*Observacion:</textarea>
+										<p class ="Fecha_Ing"> *Fecha Ingreso</p>
+									</div>
+									
+									<div class="btn-group" role="group">
+
+										<button class="btn-secondary" type="button">
+										INGRESAR FALLA
+										</button> 
+									<button class="btn-secondary" type="button">
+										BUSCAR
+									</button> 
+									<button class="btn-secondary" type="button">
+										ACTUALIZAR
+									</button> 
+									<button class="btn-secondary" type="button">
+										LIMPIAR
+									</button>
+									<button class="btn-secondary" type="button">
+										GUARDAR
+									</button> 
+								</div>
+							</div>
+
+							<!-- /* ADMINISTRACION SOLUCIONES FALLAS TECNICAS  */-->
+
+							<div class="tab-pane" id="tab3">
+
+								<div class="cajas"> 
+									<input class="Id_Cliente3" type="text" name="Id_Cliente" placeholder="Id_Cliente">
+									<input class="Id_Falla3" type="text" name="Id_Falla3" placeholder="Id_Falla">
+									<input class="Tipo_Servicio3" type="text" name="Servicio3" placeholder="Servicio">
+									<input class="Fecha_solucion" type="date" name="Fecha_Solucion" placeholder="Fecha_Solucion">
+									<input class="Tipo_Solucion" type="text" name="Tipo_Solucion" placeholder="Tipo_Solucion">
+									<textarea class="Descripcion_falla"  name="" id="">*Descripción falla:</textarea>
+									<p class ="Fecha_sol">*Fecha Solucion</p>
+								</div>
+			
+									<div class="btn-group" role="group">
+
+										<button class="btn-secondary" type="button">
+										INGRESAR FALLA
+										</button> 
+									<button class="btn-secondary" type="button">
+										BUSCAR
+									</button> 
+									<button class="btn-secondary" type="button">
+										ACTUALIZAR
+									</button> 
+									<button class="btn-secondary" type="button">
+										LIMPIAR
+									</button>
+									<button class="btn-secondary" type="button">
+										GUARDAR
+									</button> 
+								</div>
+
+							</div>
+
+							<!-- /* REPORTES OPERACION */-->
+							<div class="tab-pane" id="tab4">
+							
+								<div class="cajas">
+									<input class="Fecha_solucion4" type="date" name="Fecha_solucion4" placeholder="Fecha_Solucion">
+									<input class="Id_Falla4" type="text" name="Id_Falla4" placeholder="Id_Falla"> 
+									<input class="Id_Cliente4" type="text" name="Id_Cliente4" placeholder="Id_Cliente">
+									<input class="Tipo_Servicio4" type="text" name="Tipo_Servicio4" placeholder="Servicio">
+									<input class="Tipo_Solucion4" type="text" name="Tipo_Solucion4" placeholder="Tipo_Solucion">
+									<textarea class="previsualizacion"  name="previsualizacion" id="">*Previsualización:</textarea>
+									<p class ="Fecha_sol4">*Fecha Solucion</p>
+								</div>
+
+								<div class="btn-group4" role="group">
+
+									<button class="btn-secondary" type="button">
+									BUSCAR
+									</button> 
+									<button class="btn-secondary" type="button">
+									LIMPIAR
+									</button> 
+									<button class="btn-secondary" type="button">
+									EXPORTAR
+									</button>
+								</div>
+							</div>
+
+							
+
+							<!-- /* CREACION USUARIOS */-->
+
+							<div class="tab-pane" id="tab5">
+								
+									<div class="cajas"> 
+										<input class="Id_Usuario5" type="text" name="Id_Usuario" placeholder="Id_Usuario">
+										<input class="Nombre5" type="text" name="Nombre4" placeholder="Nombre">
+										<input class="Rol" type="text" name="Rol" placeholder="Rol">
+										<input class="Telefono5" type="text" name="Telefono5" placeholder="Telefono">
+										<input class="Fecha_Ingreso5" type="date" name="Fecha_Ingreso5" placeholder="Fecha_Ingreso">
+										<input class="Serie_dispositivo5" type="text" name="Serie_dispositivo5" placeholder="Serie_dispositivo">
+										<input class="Correo5" type="text" name="Correo5" placeholder="Correo">
+										<p class ="Fecha_Ing5"> *Fecha Ingreso</p>
+									</div>
+
+									<div class="btn-group5" role="group">
+
+										<button class="btn-secondary" type="button">
+										BUSCAR
+										</button> 
+										<button class="btn-secondary" type="button">
+										LIMPIAR
+										</button> 
+										<button class="btn-secondary" type="button">
+										ACTUALIZAR
+										</button>
+										<button class="btn-secondary" type="button">
+										CREAR USUARIO
+										</button>
+										<button class="btn-secondary" type="button">
+										GUARDAR
+										</button> 	
+
+									</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

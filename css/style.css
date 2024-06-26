@@ -1,0 +1,392 @@
+
+/* CONTENEDOR 1  */
+
+.contenedor1{
+    
+    height: 170PX;
+    background-color: #4A7EA4;
+    margin: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+
+.nombre_usuario{
+
+    text-align:right; 
+    color: #F5F5F5;
+    position: relative;
+    right:10px;
+    vertical-align: 100px;
+    bottom: 34%;
+}
+
+
+.logo{
+
+border-radius: 5px;
+position: relative;
+left:12px;
+top:20%;
+
+}
+
+
+
+.logo_usuario{
+
+width: 4%;
+height: 28%;
+position: relative;
+left: 860px;
+top: -10px;
+
+}
+
+
+.titulo{
+ 
+    color: #F5F5F5;
+    margin: 0 auto;
+    bottom: 30%;
+    position: relative;
+    left: 250px;
+}
+
+
+/* CONTENEDOR 2  */
+
+.contenedor2{
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F5F5;
+    height: 458PX;
+    margin: none;
+    overflow-x: hidden;
+ 
+}
+
+.cinta{
+
+    width:100%;
+    height:40PX;
+    position: relative;
+    left:00px;
+    top: -10px;
+}
+
+.nav-item{
+
+    font-size: small;
+}
+
+/* ADMINISTRACION DATOS CLIENTE */
+
+.Nombre{
+
+    position:relative;
+    left: -206px;
+    top: 100px;
+    font-size: medium;
+    
+}
+
+.Tipo_Servicio{
+    position:relative;
+    left: -415px;
+    top: 150px;
+    font-size: medium;
+   
+}
+
+.Telefono{
+    position:relative;
+    left: -350px;
+    top: px;
+    font-size: medium;
+   
+
+}
+
+.Direcccion{
+    position:relative;
+    left: -558px;
+    top: 50px;
+    font-size: medium;
+    
+}
+
+
+.Serie_dispositivo{
+    position:relative;
+    left: -765px;
+    top: 100px;
+    font-size: medium;
+    width:PX;
+    height:PX ;
+}
+
+.Correo{
+    position:relative;
+    left: px;
+    top: 20px;
+    font-size:medium;
+    width:PX;
+    height:PX ;
+}
+
+.lupa{
+
+    width:25X%;
+    height:25PX;
+    position: relative;
+    left:180px;
+    top:30px;
+}
+
+
+/* GESTION FALLAS TECNICAS */
+
+.Id_Usuario {
+   
+    position: relative;
+    left:-209px;
+    top:120px;
+
+}
+
+.Estado {
+   
+    position: relative;
+    left:-190px;
+    top:120px;
+
+}
+
+.Grupo {
+   
+    position: relative;
+    left:-400px;
+    top:20px;
+
+}
+
+.Id_Falla {
+   
+    position: relative;
+    left:-608px;
+    top:70px;
+
+}
+
+
+.Fecha_Ingreso {
+   
+    position: relative;
+    left:-590px;
+    top:20px;
+
+}
+
+.Id_Cliente2 {
+   
+    position: relative;
+    left:0px;
+    top:20px;
+
+}
+
+.Tipo_Falla {
+   
+    position: relative;
+    left:0px;
+    top:10px;
+
+}
+
+.Observacion {
+    width:750px;
+    height: 50PX;
+    position: relative;
+    left:-209px;
+    top:150px;
+
+}
+
+.Fecha_Ing
+
+{
+    position: relative;
+    left:590px;
+    top:-70px;
+
+}
+
+/* GRUPO DE  BOTONES  */
+.btn-secondary{
+
+    background-color: #4A7EA4;
+    width:160px;
+    height: 34px;
+    border-radius: 4px;
+    color: rgb(245, 242, 239);
+    cursor: pointer;
+    position:relative;
+    left:300px;
+    top: 250px;
+}
+
+/* ADMINISTRACION SOLUCIONES FALLAS TECNICAS  */
+
+.Descripcion_falla{
+    width:750px;
+    height: 50PX;
+    position: relative;
+    left:0px;
+    top:150px;
+
+}
+
+.Id_Cliente3{
+    position: relative;
+    left:0px;
+    top:20px;
+}
+.Id_Falla3{
+    position: relative;
+    left:12px;
+    top:20px;
+}
+
+.Tipo_Servicio3{
+    position: relative;
+    left:-415px;
+    top:130px;
+}
+
+.Tipo_Solucion{
+    position: relative;
+    left:-765px;
+    top:75px;
+}
+
+
+.Fecha_solucion{
+    position: relative;
+    left:-400px;
+    top:75px;
+}
+.Fecha_sol{
+    position: relative;
+    left:365px;
+    top:-10px;
+}
+
+/* REPORTES OPERACION  */
+
+.Fecha_solucion4{
+    position: relative;
+    left:0px;
+    top:20px;
+}
+
+
+.Fecha_sol4{
+    position: relative;
+    left: 140px;
+    top:-245px;
+}
+
+.Id_Falla4{
+    position: relative;
+    left:-140px;
+    top:70px;
+}
+
+.Id_Cliente4 {
+   
+    position: relative;
+    left:-350px;
+    top:120px;
+
+}
+
+.Tipo_Servicio4{
+    position: relative;
+    left:-555px;
+    top:170px;
+}
+
+.Tipo_Solucion4{
+    position: relative;
+    left:-765px;
+    top:220px;
+}
+
+
+.previsualizacion{
+    position: relative;
+    left:300px;
+    top:-10px;
+    width:750px;
+    height:230PX;
+}
+
+
+.btn-group4{
+    position: relative;
+    left:140px;
+    top:-170px;
+   
+}
+
+/* CREACION DE USUARIOS  */
+
+.Correo5{
+    position: relative;
+    left:220px;
+    top:110px;
+}
+
+.Nombre5{
+    position: relative;
+    left:-208px;
+    top:80px;
+}
+
+.Rol{
+    position: relative;
+    left:-415px;
+    top:140px;
+}
+
+.Serie_dispositivo5{
+    position: relative;
+    left:-750px;
+    top:80px;
+}
+
+
+
+.Id_Usuario5{
+    position: relative;
+    left:0px;
+    top:20px;
+}
+
+.Telefono5{
+    position: relative;
+    left:-400px;
+    top:20px;
+}
+
+.Fecha_Ingreso5{
+    position: relative;
+    left:-390px;
+    top:20px;
+}
+
+.Fecha_Ing5{
+    position: relative;
+    left:580px;
+    top:-35px;
+}
